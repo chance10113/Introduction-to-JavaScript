@@ -14,11 +14,15 @@ Task 1a - Voting Age
 Do the following:   
    1. Make a variable called votingAge and give it a value
    2. Return true if age is 18 or higher
-
    HINT: no function required
 */
 
-
+var votingAge = 23
+if ( votingAge >= 18) {
+  console.log(true)
+} else {
+  console.log(false)
+}
 
 /*
 Task 1b - Values

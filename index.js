@@ -35,9 +35,12 @@ Do the following:
    HINT: no function required
 */
 
-
-
-
+var bacon ="delicious"
+var cheese ="tasty"
+if (bacon="tasty") {
+  cheese="wonderful"
+  console.log(cheese)
+}
 
 /*
 Task 1c - Convert Strings to Numbers
@@ -50,7 +53,8 @@ Do the following:
    HINT: look up the Number method
 */
 
-
+var year ="1999"
+console.log(year.toString())
 
 
 /*

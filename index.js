@@ -115,8 +115,8 @@ Use the hungryDog function and feeding requirements below to do the following:
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(years, weight ){
-   if  (years >= 1){
+function hungryDog(weight, age){
+   if  (age >= 1){
      if (weight <= 5) {
       return weight * .05
      } else if (weight <= 10) {
@@ -126,11 +126,11 @@ function hungryDog(years, weight ){
      } else if (weight > 15) {
        return weight * .02
      }
-   } else if (years <= 0.25) {
+   } else if (age <= 0.25) {
      return weight * .1
-   } else if (years <= 0.583) {
+   } else if (age <= 0.583) {
      return weight * .05
-   } else if (years <=1) {
+   } else if (age <=1) {
      return weight * .04
    }
   } 
@@ -156,11 +156,6 @@ Use the game function below to do the following:
   HINT: While you can complete this with only conditionals based on strings, it may help to equate choice to a number when using Math.random()
 */
 
-function game(user, computer){
-    /*add your code here*/
-}
-  
-  
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
